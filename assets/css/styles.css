@@ -6,27 +6,23 @@
     --colorido: #fa8072;
 }
 
-header {
+.topo {
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    padding: 3%;
+    padding: 2%;
     background-color: var(--topo);    
 }
 
-header img {
+.topo img {
     width: 5%;
     height: 5%;
 }
 
-header h1 {
+.topo h1 {
     color: var(--medio-claro);
-    font-size: 400%;
+    font-size: 300%;
     letter-spacing: 0.5rem;
-}
-
-main {
-    margin: 0 5% 0 5%;
 }
 
 .menu {
@@ -34,12 +30,13 @@ main {
     justify-content: space-evenly;
     padding: 2%;
     border-bottom: 1px solid var(--medio-claro);
+    margin: 0 5% 0 5% ;
 }
 
 .menu a {
     text-decoration: none;
     color: var(--medio-escuro);
-    font-size: 24px;
+    font-size: 120%;
     letter-spacing: 0.1rem;
 }
 
@@ -48,6 +45,15 @@ main {
     border-bottom: 1px solid var(--colorido);
     transition: all 0.3s;
 }
+
+main {
+    margin: 0 5% 0 5%;
+}
+
+
+
+
+
 
 footer {
     /* margin-top: 2 rem; */
