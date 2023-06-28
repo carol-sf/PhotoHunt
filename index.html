@@ -1,103 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Photo Hunt</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/index.css">
 </head>
-<body>
-    <header>
-        <div class="topo">
-            <img src="./assets/img/logo-lente.png" alt="logo" class="logo-topo">
-            <h1>Photo Hunt</h1>
-            <img src="./assets/img/logo-lente.png" alt="logo" class="logo-topo">
-        </div>
 
-        <nav class="menu">
-            <ul><a href="index.html">Destaques</a></ul>
-            <ul><a href="#">Galeria</a></ul>
-            <ul><a href="#">Ranking</a></ul>
-            <ul><a href="#">Sobre nós</a></ul>
-            <ul><a href="#">Login</a></ul>
-        </nav>
+<body>
+
+    <header class="topo">
+        <img src="./assets/img/logo-lente.png" alt="logo" class="logo">
+        <h1>Photo Hunt</h1>
+        <img src="./assets/img/logo-lente.png" alt="logo" class="logo">
     </header>
 
     <main>
-        <section class="titulo">
+        <nav class="menu">
+            <ul><a href="index.html">Galeria</a></ul>
+            <ul><a href="mais-fotos.html">Mais fotos</a></ul>
+            <ul><a href="ranking.html">Ranking</a></ul>
+            <ul><a href="sobre-nos.html">Sobre nós</a></ul>
+            <ul><a href="login.html">Login</a></ul>
+        </nav>
+
+        <section class="cabecalho">
             <h1>As fotos mais curtidas</h1>
         </section>
 
         <section class="principal">
-            <div class="destaque01 texto-direita">
+            <div class="junior texto-direita" id="principal-junior">
                 <div class="galeria">
                     <div class="item-galeria item01">
-                        <img src="./assets/img/jr-mar-por-do-sol.jpeg" alt="">
+                        <img src="./assets/img/mar-por-do-sol-jr.jpeg" alt="" class="img-galeria">
                     </div>
                     <div class="item-galeria item02">
-                        <img src="./assets/img/jr-mulher-por-do-sol.jpeg" alt="">
+                        <img src="./assets/img/mulher-por-do-sol-jr.jpeg" alt="" class="img-galeria">
                     </div>
                     <div class="item-galeria item03">
-                        <img src="./assets/img/jr-aranha.jpeg" alt="">
+                        <img src="./assets/img/aranha-jr.jpeg" alt="" class="img-galeria">
                     </div>
                     <div class="item-galeria item04">
-                        <img src="./assets/img/jr-filhote.jpeg" alt="">
+                        <img src="./assets/img/filhote-jr.jpeg" alt="" class="img-galeria">
                     </div>
                     <div class="item-galeria item05">
-                        <img src="./assets/img/jr-fotografia.jpeg" alt="">
+                        <img src="./assets/img/fotografia-jr.jpeg" alt="" class="img-galeria">
                     </div>
                 </div>
 
                 <div class="texto">
-                    <h2>De Anderson Suzano Júnior</h2>
-                    <p>Focando nos detalhes da natureza e no famoso nascer do sol</p>
+                        <h2>De Anderson Suzano Júnior</h2>
+                        <p>Focando nos detalhes da natureza e no famoso nascer do sol</p>
                 </div>
             </div>
 
-            <div class="destaque02 texto-direita">
-                <div class="galeria">
-                    <div class="item-galeria item01">
-                        <img src="./assets/img/deia-fotografo.jpeg" alt="">
-                    </div>
-                    <div class="item-galeria item02">
-                        <img src="./assets/img/deia-homem.jpeg" alt="">
-                    </div>
-                    <div class="item-galeria item03">
-                        <img src="./assets/img/deia-ciclista.jpeg" alt="">
-                    </div>
-                    <div class="item-galeria item04">
-                        <img src="./assets/img/deia-bicicletas.jpeg" alt="">
-                    </div>
-                    <div class="item-galeria item05">
-                        <img src="./assets/img/deia-irmas.jpeg" alt="">
-                    </div>
-                </div>
-
+            <div class="andreia texto-esquerda" id="principal-andreia">
                 <div class="texto">
                     <h2>De Andreia França</h2>
                     <p>Retratando momentos ao ar livre e um rolê entre amigas</p>
                 </div>
-            </div>
 
-            <div class="destaque03 texto-direita">
                 <div class="galeria">
                     <div class="item-galeria item01">
-                        <img src="./assets/img/amanda-menina-igreja.jpeg" alt="">
+                        <img src="./assets/img/fotografo-deia.jpeg" alt="" class="img-galeria">
                     </div>
                     <div class="item-galeria item02">
-                        <img src="./assets/img/amanda-menina.jpeg" alt="">
+                        <img src="./assets/img/homem-deia.jpeg" alt="" class="img-galeria">
                     </div>
                     <div class="item-galeria item03">
-                        <img src="./assets/img/amanda-mar.jpeg" alt="">
+                        <img src="./assets/img/ciclista-deia.jpeg" alt="" class="img-galeria">
                     </div>
                     <div class="item-galeria item04">
-                        <img src="./assets/img/amanda-chuva.jpeg" alt="">
+                        <img src="./assets/img/bicicletas-deia.jpeg" alt="" class="img-galeria">
                     </div>
                     <div class="item-galeria item05">
-                        <img src="./assets/img/amanda-familia-por-sol.jpeg" alt="">
+                        <img src="./assets/img/irmas-deia.jpeg" alt="" class="img-galeria">
+                    </div>
+                </div>
+            </div>
+
+            <div class="amanda texto-direita" id="principal-amanda">
+                <div class="galeria02">
+                    <div class="item-galeria item01-galeria02">
+                        <img src="./assets/img/menina-igreja-amanda.jpeg" alt="" class="img-galeria">
+                    </div>
+                    <div class="item-galeria item02-galeria02">
+                        <img src="./assets/img/menina-amanda.jpeg" alt="" class="img-galeria">
+                    </div>
+                    <div class="item-galeria item03-galeria02">
+                        <img src="./assets/img/mar-amanda.jpeg" alt="" class="img-galeria">
+                    </div>
+                    <div class="item-galeria item04-galeria02">
+                        <img src="./assets/img/chuva-amanda.jpeg" alt="" class="img-galeria">
+                    </div>
+                    <div class="item-galeria item05-galeria02">
+                        <img src="./assets/img/familia-por-sol-amanda.jpeg" alt="" class="img-galeria">
                     </div>
                 </div>
 
@@ -107,30 +107,56 @@
                 </div>
             </div>
 
-            <!-- <div class="destaque04 texto-direita">
-                <div class="galeria">
-                    <div class="item-galeria item01">
-                        <img src="./assets/img/carol-nascer-sol.jpeg" alt="">
-                    </div>
-                    <div class="item-galeria item02">
-                        <img src="./assets/img/carol-bebe.jpeg" alt="">
-                    </div>
-                    <div class="item-galeria item03">
-                        <img src="./assets/img/carol-menina.jpeg" alt="">
-                    </div>
-                    <div class="item-galeria item04">
-                        <img src="./assets/img/carol-chocolate-quente.jpeg" alt="">
-                    </div>
-                    <div class="item-galeria item05">
-                        <img src="./assets/img/carol-mapa-homem.jpeg" alt="">
-                    </div>
+            <div class="carol texto-esquerda" id="principal-carol">
+                <div class="texto">
+                    <h2>De Anna Carolina França</h2>
+                    <p>Retratando todas as idades de forma encantadora e paisagens apaixonantes</p>
+                </div>
 
-                    <div class="texto">
-                        <h2>De Anna Carolina França</h2>
-                        <p>Retratando todas as idades de forma encantadora e paisagens apaixonantes</p>
+                <div class="galeria02">
+                    <div class="item-galeria item01-galeria02">
+                        <img src="./assets/img/nascer-sol-carol.jpeg" alt="" class="img-galeria">
+                    </div>
+                    <div class="item-galeria item02-galeria02">
+                        <img src="./assets/img/bebe-carol.jpeg" alt="" class="img-galeria">
+                    </div>
+                    <div class="item-galeria item03-galeria02">
+                        <img src="./assets/img/menina-carol.jpeg" alt="" class="img-galeria">
+                    </div>
+                    <div class="item-galeria item04-galeria02">
+                        <img src="./assets/img/chocolate-quente-carol.jpeg" alt="" class="img-galeria">
+                    </div>
+                    <div class="item-galeria item05-galeria02">
+                        <img src="./assets/img/mapa-homem-carol.jpeg" alt="" class="img-galeria">
                     </div>
                 </div>
-            </div> -->
+            </div>
+
+            <div class="anderson texto-direita" id="principal-anderson">
+                <div class="galeria02">
+                    <div class="item-galeria item01-galeria02">
+                        <img src="./assets/img/ciclismo-anderson.jpeg" alt="" class="img-galeria">
+                    </div>
+                    <div class="item-galeria item02-galeria02">
+                        <img src="./assets/img/menina-sol-anderson.jpeg" alt="" class="img-galeria">
+                    </div>
+                    <div class="item-galeria item03-galeria02">
+                        <img src="./assets/img/cidade-anderson.jpeg" alt="" class="img-galeria">
+                    </div>
+                    <div class="item-galeria item04-galeria02">
+                        <img src="./assets/img/predios-anderson.jpeg" alt="" class="img-galeria">
+                    </div>
+                    <div class="item-galeria item05-galeria02">
+                        <img src="./assets/img/menino-sol-anderson.jpeg" alt="" class="img-galeria">
+                    </div>
+                </div>
+
+                <div class="texto">
+                    <h2>De Anderson Suzano</h2>
+                    <p>Com uma visão ampla da cidade e de pontos perfeitos para se admirar</p>
+                </div>
+            </div>
+
         </section>
     </main>
 
@@ -163,11 +189,13 @@
                     class="rodape-final-logo"></a>
 
             <div class="rodape-final-redes-sociais">
-                <a href=""><img src="./assets/img/contato-instagram.png" alt="Instagram"></a>
-                <a href=""><img src="./assets/img/contato-facebook.png" alt="Facebook"></a>
-                <a href=""><img src="./assets/img/contato-twitter.png" alt="Twitter"></a>
+                <a href=""><img src="./assets/img/instagram.png" alt="Instagram"></a>
+                <a href=""><img src="./assets/img/facebook.png" alt="Facebook"></a>
+                <a href=""><img src="./assets/img/twitter.png" alt="Twitter"></a>
             </div>
         </div>
     </footer>
+
 </body>
+
 </html>

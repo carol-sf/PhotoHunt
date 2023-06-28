@@ -1,0 +1,73 @@
+.login {
+    margin: 5% 15% 5% 15%;
+    display: grid;
+    grid-template-columns: 47% 53%;
+    align-items: center;
+}
+
+form {
+    grid-column: 1 / 2;
+    padding-right: 15%;
+}
+
+form h1 {
+    font-size: 46px;
+    padding-bottom: 5px;
+    color: var(--topo);
+}
+
+form label {
+    display: block;
+    margin: 20px 0 5px 0;
+    font-size: 20px;
+    color: var(--medio-escuro);
+}
+
+.campo {
+    display: block;
+    margin-bottom: 20px; 
+    width: 100%;
+    height: 25px;
+    border: 1px solid var(--medio-escuro);
+    border-radius: 7px  ;
+}
+
+.botao {
+    width: 102%;
+    height: 30px;
+    margin-bottom: 3%;
+    background-color: var(--topo);
+    color: white;
+    border-radius: 7px;
+}
+
+.login-form-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+form a {
+    text-decoration: none;
+    color: var(--colorido);
+}
+
+.login-imagem {
+    grid-column: 2 / 3;
+}
+
+.login-imagem img {
+    width: 100%;
+}
+
+.radio {
+    display: inline;
+    margin-right: 30px;
+}
+
+.check {
+    display: inline;
+}
+
+.opcoes {
+    margin-left: 15px;
+}

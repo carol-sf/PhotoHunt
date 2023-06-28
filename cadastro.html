@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Photo Hunt</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+</head>
+
+<body>
+    <header class="topo">
+        <img src="./assets/img/logo-lente.png" alt="logo" class="logo">
+        <h1>Photo Hunt</h1>
+        <img src="./assets/img/logo-lente.png" alt="logo" class="logo">
+    </header>
+
+    <main>
+        <nav class="menu">
+            <ul><a href="index.html">Galeria</a></ul>
+            <ul><a href="mais-fotos.html">Mais fotos</a></ul>
+            <ul><a href="ranking.html">Ranking</a></ul>
+            <ul><a href="sobre-nos.html">Sobre nós</a></ul>
+            <ul><a href="login.html">Login</a></ul>
+        </nav>
+
+        <section class="login">
+            <form action="#" class="cadastro-form">
+                <h1>Junte-se a nós!</h1>
+                <a href="login.html">Já tenho uma conta</a>
+
+                <label for="inpNome">Nome: </label>
+                <input type="text" id="inpNome" name="inpNome" class="campo" required>
+
+                <label for="">Email: </label>
+                <input type="email" class="campo" required>
+
+                <label for="inpIdade">Idade: </label>
+                <input type="number" id="inpIdade" name="inpIdade" min="0" max="100" step="1" class="campo">
+
+                <label for="">Sexo:</label>
+                <div class="opcoes">
+                    <input type="radio" id="rMasculino" name="genero" value="M">
+                    <label class="radio" for="rMasculino">Masculino</label>
+                    <input type="radio" id="rFeminino" name="genero" value="F">
+                    <label class="radio" for="rFeminino">Feminino</label>
+                </div>
+
+                <label for="">Você está interessado em:</label>
+                <div class="opcoes">
+                    <input type="checkbox" id="ckInteresse" name="ckBaixar" checked>
+                    <label for="ckInteresse" class="check">Baixar fotos gratuitas</label>
+                </div>
+                <div class="opcoes">
+                    <input type="checkbox" id="ckInteresse" name="ckContribuir">
+                    <label for="ckInteresse" class="check">Contribuir com minhas fotos</label>
+                </div>
+
+                <label for="site">Seu site ou instagram profissional:</label>
+                <input type="url" id="site" name="site" class="campo">
+
+                <label for="">Senha:</label>
+                <input type="password" class="campo" required>
+
+                <input type="submit" class="botao">
+                <input type="reset" class="botao">
+
+                </div>
+            </form>
+
+            <div class="login-imagem">
+                <img src="./assets/img/cadastro-imagem.jpg" alt="">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="rodape-info">
+            <div class="rodape-info-menu">
+                <h2>Menu</h2>
+                <a href="index.html">Galeria</a>
+                <a href="mais-fotos.html">Mais fotos</a>
+                <a href="ranking.html">Ranking</a>
+            </div>
+
+            <div class="rodape-info-sobre">
+                <h2>Sobre nós</h2>
+                <a href="sobre-nos.html">Sobre nós</a>
+                <a href="">Fale conosco</a>
+                <a href="">Licenciamento</a>
+            </div>
+
+            <div class="rodape-info-login">
+                <h2>Junte-se a nós</h2>
+                <a href="cadastro.html">Criar uma conta grátis</a>
+                <a href="login.html">Já tenho uma conta</a>
+                <a href="">Seja Pro</a>
+            </div>
+        </div>
+
+        <div class="rodape-final">
+            <a href="index.html"><img src="./assets/img/logo-photo-hunt.png" alt="logo - Photo Hunt"
+                    class="rodape-final-logo"></a>
+
+            <div class="rodape-final-redes-sociais">
+                <a href=""><img src="./assets/img/instagram.png" alt="Instagram"></a>
+                <a href=""><img src="./assets/img/facebook.png" alt="Facebook"></a>
+                <a href=""><img src="./assets/img/twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
